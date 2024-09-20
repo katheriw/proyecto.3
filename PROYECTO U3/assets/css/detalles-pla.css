@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/*Estilos generales*/
+body {
+    background-image: url(https://wallpapers.com/images/hd/dragon-ball-z-c7kbn007qmt9qrb0.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0; /* Elimina márgenes por defecto */
+    /*agregando*/
+    
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+/*navegacion - barra de menu*/
+nav {
+  background-color: #000000  ;
+  border-bottom: 12px solid #ffa500;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center; /* Alinea verticalmente */
+
+}
+
+nav > a {
+  font-weight: 100%;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 9px 9px;
+  color: #ffa500;
+}
+
+nav > a:hover {
+  font-weight: 900;
+  color: #000000;
+  background-color: #ffa500;
+  border-radius: 8px;
+}
+
+/*estilos para el logo*/
+.logotipo {
+  width: 120px;
+  padding: 0 10px;
+  margin: 0 10px;
+  margin-right: 20px;
+  max-height: 60px;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%; /* Ajusta el ancho para centrar elementos como h1 y hr */
+}
+
+.titulo,
+.personajes {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fcf9f9; /* Color naranja estilo Dragon Ball */
+  font-weight: 900;
+  text-shadow:0 0 30px #eb6309;
+}
+
+hr {
+  border: none;
+  border-top: 4px solid #ffa500;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.planet-card {
+  display: flex;
+    gap: 25px;
+    justify-content: center;
+    background-color: rgb(23, 98, 30, 0,98);
+    color: rgb(250, 246, 242);
+    border-radius: 20px;
+    padding: 20px;
+}
+/*primer contenedor , el planeta*/
+.planet-name{
+  font-size: 40px;  
+  color: rgb(230, 90, 9);
+  text-shadow: 0 0 12px #f06f06d7;
+  font-family: "Signika Negative", sans-serif;
+
+}
+
+.id{
+  font-size: 25px; 
+  color: #f50f07;
+  text-shadow: 0 0 10px #fd0e06d7;
+}
+
+.primer-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+    background-color: rgb(6, 6, 6, 0.98);
+    border: 3px solid rgb(245, 148, 20);
+    border-radius: 20px;
+    margin: 30px;
+    max-width: 600px;
+  padding: 20px;
+  width: 100%;
+}
+.is-destroyed {
+  font-size: 18px;  
+  color: #f5a700;
+  text-shadow: 0 0 6px #f06f06d7;
+  font-family: "Signika Negative", sans-serif;
+}
+
+.planet-img{
+    width: 60%;
+    height: 90%;
+    margin: auto;
+  display: block;
+  display: flex;
+  justify-content: center;
+
+}
+
+/*lista de perosnajes que pertencen al planeta*/
+.characters-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre las cartas */
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.char-card {
+  border: 6px solid #f08d0c;
+  background-color: #000000  ;
+  padding: 15px;
+  border-radius: 8px;
+  width: 400px; /* Ancho de cada carta */
+  box-shadow: 6px 10px 8px rgba(209, 140, 12, 0.959);
+  text-align: center; 
+  height: 1000px;
+
+
+  /* Centrar contenido */
+}
+.description{
+  font-size: 16px; 
+  color: #faf9f7;
+
+}
+
+/*
+. {
+  background-color: rgb(18, 14, 13);
+  box-shadow: 10px 30px 25px rgba(208, 164, 38, 0.808);
+  color: rgb(250, 248, 243);
+  border: 4px solid #f5a226ec;
+  border-radius: 6px;
+  width: 250px;
+  height: fit-content;
+  margin: 8%;
+  padding: 1%;
+  display: block;
+  
+}*/
+
+.img-con {
+  height: 420px;
+}
+.img-char{
+  width: 200px;
+  height: 400px;
+  display:block;
+  margin:auto;
+  border-radius: 8px;
+ }
+
+.name-transfor{
+  color: #f55a00;
+    text-shadow: 0 0 2px #f3edead7;
+    font-family: "Signika Negative", sans-serif;
+}
+
+
+.name-char {
+  font-size: 30px;  
+  color: #f5a700;
+
+  text-shadow: 0 0 6px #f5da45d7;
+  font-family: "Signika Negative", sans-serif;
+  
+}
+.race{
+  color: #f55a00;
+    text-shadow: 0 0 2px #f3edead7;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 23px;
+}
+
+.maxKi-char{
+  font-size: 23px;  
+  color: #f5a700;
+  text-shadow: 0 0 6px #f06f06d7;
+  font-family: "Signika Negative", sans-serif;
+  
+}
+
+.gender{
+  font-size: 23px; 
+  color: #0714d4;
+  text-shadow: 0 0 6px #1636eed7;
+}
+
+.affiliation{
+  font-size: 23px; 
+  color: #f50f07;
+  text-shadow: 0 0 10px #fd0e06d7;
+}
+

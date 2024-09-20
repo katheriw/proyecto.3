@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body {
+    background-image: url(https://images.alphacoders.com/647/647552.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    /*no scroll*/
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    font-family: "Nerko One", cursive;
+}
+
+main {
+    width: 100%;
+}
+
+.container {
+    font-size: 22px;
+    background: rgba(0, 0, 0, 0.92);
+    color: white;
+    width: 50%;
+    box-shadow: 10px 10px 10px #d8eff3;
+    min-height: 60%;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.img-title {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn {
+    display: block;
+    background-color: #ffa500;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgb(33, 32, 30);
+    color: #ffa500;
+}
+
+.btn:focus {
+    background-color: rgb(33, 32, 30);
+    color: #ffa500;
+}
+
+
+

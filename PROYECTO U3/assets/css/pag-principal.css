@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+body {
+  background-color: #000000;
+  font-family: "Quicksand", sans-serif;
+  overflow-x: hidden; /* Oculta el scroll horizontal */
+  margin: 0; /* Elimina márgenes por defecto */
+  overflow: hidden;
+}
+
+/*navegacion - barra de menu*/
+nav {
+  background-color: #000000  ;
+  border-bottom: 12px solid #ffa500;
+  display: flex;
+}
+
+nav > a {
+  font-weight: 900;
+  text-decoration: none;
+  margin: 1%;
+  padding: 8px 12px;
+  color: #ffa500;
+}
+
+nav > a:hover {
+  font-weight: 900;
+  color: #000000;
+  background-color: #ffa500;
+  border-radius: 8px;
+}
+
+/*estilos para el logo*/
+.logotipo {
+  width: 120px;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: flex-start; /* Cambiado a columna para ajuste mejor */
+  text-align: justify;
+
+}
+
+.container-info {
+    background: rgba(3, 2, 20, 0.92);
+    color: rgb(230, 218, 218);
+    border: 1px;
+    width: 100%;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.imagen-header {
+  width: 100%;
+  position: relative;
+}
+
+.imagen-header::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(to left, #070d1b, transparent);
+}
+
+.imagen-header {
+  background-image: url(https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/26079ab060401d8a76039e985d63a3e9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+}
+
+.sinopsis {
+  color: rgb(231, 148, 15);
+  font-size: 27px;
+}
+
+p .parrafo {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 28px; /* Reducido el tamaño del h1 */
+  color: #ffa500;
+  margin: 10px 0; /* Reducido el margen superior e inferior */
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #ffa500;
+  width: 50%; /* Reducido el ancho del hr */
+  margin: 10px auto; /* Ajustado el margen */
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las cards se envuelvan */
+  justify-content: center; /* Centrado las cards */
+  gap: 80px; /* Reducido el espacio entre las cards */
+  margin: 10px; /* Ajustado el margen */
+}
+
+.container-personajes,
+.container-planet {
+  background-color: rgb(255, 255, 255, 0.1);
+  padding: 10px; /* Reducido el padding */
+  border: 1px solid #ffffff; /* Reducido el grosor del borde */
+  border-radius: 10px; /* Reducido el radio del borde */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Reducida la sombra */
+  text-align: center;
+  width: 400px; /*Ajustado el ancho */
+  max-width: 500px; /* Añadido un ancho máximo */
+  max-height: 600px;
+}
+
+.cards img {
+  width: 300px;
+  height: 210px;
+  border-radius: 8px; /* Añadido radio del borde para las imágenes */
+}
+
+.personajes,
+.planet {
+  font-weight: bold;
+  font-size: 1.2rem; /* Reducido el tamaño de la fuente */
+  color: #ffffff;
+  padding: 5px; /* Reducido el padding */
+}
+
+.ver-mas {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem; /* Reducido el tamaño de la fuente */
+  background-color: #ffa500;
+  padding: 5px 10px; /* Reducido el padding */
+  border-radius: 15px; /* Reducido el radio del borde */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+}
+
+.ver-mas:hover {
+  background-color: #ff4500;
+  font-weight: bold;
+  color: #ffffff;
+  transform: scale(1.02); /* Reducido el efecto de zoom */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Reducida la sombra */
+}
+
+

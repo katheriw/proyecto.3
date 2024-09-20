@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+/*Estilos generales*/
+body {
+  background-image:url('https://wallpapers.com/images/hd/dragon-ball-z-c7kbn007qmt9qrb0.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  font-family: "Quicksand", sans-serif;
+  background-color: #000000;
+  margin: 0; /* Elimina márgenes por defecto */
+  
+}
+/*navegacion - barra de menu*/
+nav {
+  background-color: #000000  ;
+  border-bottom: 12px solid #ffa500;
+  display: flex;
+}
+
+nav > a {
+  font-weight: 900;
+  text-decoration: none;
+  margin: 1%;
+  padding: 9px 13px;
+  color: #ffa500;
+}
+
+nav > a:hover {
+  font-weight: 900;
+  color: #000000;
+  background-color: #ffa500;
+  border-radius: 8px;
+}
+
+/*estilos para el logo*/
+.logotipo {
+  width: 120px;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+
+.main> h1 {
+  text-align: center;
+}
+
+.titulo, 
+.planet-titulo,
+.trasformaciones {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff; /* Color naranja estilo Dragon Ball */
+  font-weight: 900;
+  text-shadow:0 0 30px #eb6309;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #ffa500;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.conteiner-general {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.name-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+  /*estilo del primes contenedor izquierdo*/
+
+.conteiner-imagen-dts{
+    border:6px solid ;
+    width: 300px;
+    margin:0;
+    background-color: rgb(10, 12, 13);
+    box-shadow: 15px 30px 25px rgba(208, 164, 38, 0.808);
+    color: rgba(243, 145, 33, 0.918);
+    text-shadow: 0 0 8px #eb6e08f5;
+    border: 4px solid rgba(231, 163, 14, 0.925);
+    border-radius: 10px;
+    padding: 20px;
+    height: 480px;
+
+
+}
+  .img-personajes{
+    width:  170px;
+    margin: auto;
+    display: block;
+    justify-content: center; 
+    overflow: hidden;
+  }
+
+
+ /*contenedor de informacion del personajes */
+ .conteiner-informacion {
+  font-size: 20px;
+    background-color: rgb(18, 14, 13);
+    box-shadow: 10px 30px 25px rgba(208, 164, 38, 0.808);
+    color: rgb(250, 248, 243);
+    text-align: justify;
+    border: 4px solid #f5a226ec;
+    border-radius: 10px;
+    width: 550px;
+    padding: 28px;
+    display: block; 
+    height: 461px;
+    margin-bottom: 80px;
+ }
+
+  .maxki{
+    color: #f55a00;
+    text-shadow: 0 0 2px #f3edead7;
+    font-family: "Signika Negative", sans-serif;
+  }
+
+  .race{
+    color: #f5a700;
+    text-shadow: 0 0 6px #f06f06d7;
+    font-family: "Signika Negative", sans-serif;
+  }
+  .gender{
+    color: #0814c2;
+    text-shadow: 0 0 6px #0624d1d7;
+    font-family: "Signika Negative", sans-serif;
+
+  }
+
+  .subtitulo {
+    color: #0814c2;
+    text-shadow: 0 0 6px #0624d1d7;
+    font-family: "Signika Negative", sans-serif;
+    
+
+  }
+  .description{
+    font-size: 16px;  
+}
+ 
+ /*estilo de la descripcion de los planetas*/
+  .VEGETA{
+    color: rgb(243, 128, 51);
+  }
+
+.planet-card {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.img-conteiner-planet {
+  margin-top: 50px;
+  border:6px solid ;
+  width: 300px;
+  margin:0;
+  background-color: rgb(10, 12, 13);
+  box-shadow: 15px 30px 25px rgba(208, 164, 38, 0.808);
+  color: rgba(243, 145, 33, 0.918);
+  text-shadow: 0 0 8px #eb6e08f5;
+  border: 4px solid rgba(231, 163, 14, 0.925);
+  border-radius: 10px;
+  padding: 20px;
+  height: 300px;
+}
+
+.img-conteiner-planet > img {
+  width:  300px;
+  margin: auto;
+  display: block;
+  justify-content: center; 
+  overflow: hidden;
+}
+
+.info-conteiner-planet {
+  font-size: 20px;
+  background-color: rgb(18, 14, 13);
+  box-shadow: 10px 30px 25px rgba(208, 164, 38, 0.808);
+  color: rgb(250, 248, 243);
+  text-align: justify;
+  border: 4px solid #f5a226ec;
+  border-radius: 10px;
+  width: 550px;
+  padding: 28px;
+  display: block; 
+  height: 280px;
+  margin-bottom: 80px;
+    
+}
+
+.info-conteiner-planet > p {
+ font-size: 16px;
+}
+
+.name-transfor{
+  color: rgb(243, 128, 51);
+
+}
+
+.transfor-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre las cartas */
+  justify-content: center; /* Centra las cartas horizontalmente */
+  align-items: center; /* Alinea el contenido verticalmente */
+  padding: 20px;
+}
+
+.char-card {
+  background-color: rgb(18, 14, 13);
+  box-shadow: 10px 30px 25px rgba(208, 164, 38, 0.808);
+  color: rgb(250, 248, 243);
+  border: 4px solid #f5a226ec;
+  border-radius: 8px;
+  width: 370px; 
+  height: 800px; 
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribuye los elementos verticalmente */
+}
+
+.img-con {
+  height: 700px;
+}
+
+.img-transfor {
+  width: 350px;
+  height: 650px;
+  display:block;
+  margin:auto;
+  border-radius: 8px;
+  margin-bottom: 10px; 
+}
+
+.ki-trasfor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: rgb(10, 12, 13);
+  box-shadow: 2px 4px 5px rgba(208, 164, 38, 0.808);
+  color: rgb(236, 204, 141);
+  border: 4px solid #e09e39ec;
+  border-radius: 6px;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto; /* Centra el elemento horizontalmente */
+}

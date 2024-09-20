@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://image.jeuxvideo.com/medias-crop-1200-675/169504/1695041640-1873-card.jpg);
+    /*background: #d4bdde;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Dosis", sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    text-align: center;
+    background: rgb(255,165,0);
+    background: radial-gradient(circle, rgba(255,165,0,1) 0%, rgba(255,255,255,1) 100%);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+
+}
+
+.volver {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+a {
+    background-color: #070707; /* Color de fondo */
+    color: rgb(248, 165, 32); /* Color del texto */
+    padding: 15px 32px; /* Relleno del botón */
+    text-align: center; /* Centrar texto */
+    text-decoration: none; /* Eliminar subrayado */
+    font-size: 18px; /* Tamaño de la fuente */
+    margin: 4px 25px; /* Márgenes */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    border: none; /* Sin borde */
+    border-radius: 9px; /* Bordes redondeados */
+}
+
+a:hover {
+    background-color: rgb(248, 165, 32);
+    color: #070707; 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    
+}
+
+.chart {
+    padding: 5rem;
+    border: 3px solid #ffa500;
+    border-radius: 1rem;
+    /*background: rgb(255, 255, 255);*/
+    background-color: rgba(41, 39, 39, 0.433);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
+    width: 550px;
+    height: 550px;
+
+}
+
+canvas {
+    width: 100% !important; /* Asegura que el gráfico se ajuste al tamaño del contenedor */
+    height: 100% !important; /* Asegura que el gráfico se ajuste al tamaño del contenedor */
+}
+
+prueba {
+    background: rgba(255, 166, 0);
+    background: rgba(112, 76, 10);
+    background: rgba(198, 139, 30);
+    background: rgba(198, 139, 30);
+    background: rgba(50, 36, 10);
+    background: rgba(0, 0, 0);
+}
